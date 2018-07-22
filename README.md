@@ -11,5 +11,5 @@ Train the Model:
  
  Analyze the results:
   Calculate metrics and Plot curves(ROC curve and precision&recall&f1score for different thresholds curve):
-  run 'curves&metrics.py'
+  run 'analyze_dia.py'
   
