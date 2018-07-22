@@ -159,13 +159,13 @@ roc_plot(age_tpr, age_fpr, age_label, age_auc)
 
 ###------threshold curves
 age_legend = ['age XX~35', 'age 36~50','age 51~xx']
-title_p = 'thresholds-precision(gender)'
+title_p = 'thresholds-precision(age)'
 thre_plot(age_thre_prf, age_precision, age_legend, title_p)
 print("\n")
-title_r = 'thresholds-recall(gender)'
+title_r = 'thresholds-recall(age)'
 thre_plot(age_thre_prf, age_recall, age_legend, title_r)
 print("\n")
-title_f = 'thresholds-f1score(gender)'
+title_f = 'thresholds-f1score(age)'
 thre_plot(age_thre_prf, age_f1score, age_legend, title_f)
 print("\n")
 print("\n")
