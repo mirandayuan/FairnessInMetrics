@@ -6,11 +6,6 @@ A. Pima Indians Diabetes Dataset(source: https://www.kaggle.com/uciml/pima-india
 
   a) 'diabetes.csv'
   
-B. Throid Disease Dataset from UCI(source: https://archive.ics.uci.edu/ml/datasets/Thyroid+Disease):
-
-  a) training: 'allbp.data.txt'
-  
-  b) test: 'allbp.test.txt'
   
   
   
@@ -20,10 +15,7 @@ II. Preprocess Data：
   A. For diabetes dataset:
   
     run 'diabetes_features.py'
-    
-  B. For thyroid disease dataset:
-  
-    run 'thy_features.py'
+
   
   
     
@@ -49,8 +41,6 @@ III. Train the Model:
   
     run 'analyze_dia.py'
     
-  B. For thyroid disease dataset:
-  
-    run 'analyze_thy.py'
+
   
   
