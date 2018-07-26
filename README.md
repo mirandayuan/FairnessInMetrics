@@ -35,12 +35,15 @@ III. Train the Model:
  
  IV. Analyze the results:
  
-  Calculate metrics and Plot curves(ROC curve and precision&recall&f1score for different thresholds curve):
-  
-  A. For diabetes dataset:
+  A. Calculate metrics and Plot curves(ROC curve and precision&recall&f1score for different thresholds curve):
   
     run 'analyze_dia.py'
     
+    
+  
+  B. Find the optimal threshold by computing average error
+  
+    run 'findthreshold.py'
 
   
   
