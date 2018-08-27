@@ -38,13 +38,21 @@ protected features: age, gender and race
 
   choose one from the following four methods
   
-  A. Logistic Regression: run 'logistic.py'
+  A. Logistic Regression:
+   
+    run 'logistic.py'
   
-  B. Random Forest: run 'random.py'
+  B. Random Forest: 
   
-  C. Gradient Boosting Decision Tree: run 'gbdt.py'
+    run 'random.py'
+  
+  C. Gradient Boosting Decision Tree: 
+  
+    run 'gbdt.py'
  
-  D. xgboost: run 'xgb.py'
+  D. xgboost: 
+  
+    run 'xgb.py'
   
   sort the features by the importance of features (based on the model trained by xgboost method):
   
