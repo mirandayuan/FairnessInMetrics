@@ -44,7 +44,7 @@ def train_div(y_train, race_train, index, start):
     if y_train[index] == 1:
         race_train[start].append(index)
     else:
-        race_train[start].append(index)
+        race_train[start + 1].append(index)
 
 
 ### load dataset
@@ -59,7 +59,7 @@ for i in range(0, len(X_train)):
     if X_train.loc[i, 'age'] < 41:
         train_div(y_train, age_train, i, 0)
     elif X_train.loc[i, 'age'] < 61:
-        train_div(y_train, age_train, i, 3)
+        train_div(y_train, age_train, i, 2)
     else:
         train_div(y_train, age_train, i, 4)
 '''
